@@ -6,18 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CRUD</title>
-    <script src="processoJS.js"></script>
+    <script src="processo.js"></script>
 </head>
 
 <body>
-    <input type="text" onkeyup="pesquisaCliente();" id="barra_pesquisa"><button type="button" onclick="novoCliente();">Nomo Cliente</button>
     <table>
         <h1>CRUD</h1>
+        <input type="text" onkeyup="pesquisaCliente();" id="barra_pesquisa"><button type="button" onclick="novoCliente();">Novo Cliente</button>
         <thead>
-            <tr>ID</tr>
+            <td>ID</td>
             <td>Nome</td>
             <td>CPF</td>
-            <tr>Ações</tr>
+            <td>Ações</td>
         </thead>
         <tbody id="lista_cliente">
         </tbody>
